@@ -7,6 +7,9 @@ const Home = () => {
       <p data-aos="fade-up" data-aos-delay="300">
         Store and share files seamlessly.
       </p>
+      <p data-aos="fade-up" data-aos-delay="300">
+        By -Mubin Khan
+      </p>
     </div>
   );
 };

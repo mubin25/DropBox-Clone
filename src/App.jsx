@@ -25,7 +25,7 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
-      <Footer /> {/* Footer will now always be at the bottom */}
+      <Footer /> 
     </div>
   );
 };
