@@ -1,0 +1,41 @@
+/* Custom Styles */
+.hero-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  
+  .feature-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Ensure full height */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+/* Make root container flexible */
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Ensure content expands to push footer down */
+.main-content {
+  flex: 1;
+}
+
+/* Footer styling */
+footer {
+  background: #212529;  /* Dark theme */
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+}
